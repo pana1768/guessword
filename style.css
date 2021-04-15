@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Nunito;
+}
+
+.conteiner{
+    width: 30%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px;
+}
+body{
+    background-image: url(6.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.conteiner input{
+    display: block;
+    width: 50%;
+    margin: auto;
+    outline: none;
+    padding: 10px;
+}
+.btns{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+.btns button{
+    width: 49%;
+    padding: 10px 0;
+}
+.conteiner p{
+    margin: 8px;
+}
+.conteiner h1{
+    text-align: center;
+}
+.conteiner h3{
+    text-align: center;
+    margin: 8px;
+}
